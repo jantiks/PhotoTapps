@@ -82,10 +82,14 @@ class PhotosCollectionViewController: UICollectionViewController {
 extension PhotosCollectionViewController: UICollectionViewDelegateFlowLayout{
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
         
-        let numberOfItems: CGFloat = 3
+        let numberOfItems: CGFloat = 6
+        print(numberOfItems)
         let paddingWidth = 20 * (numberOfItems + 1)
+        print(paddingWidth)
         let avilableWidth = collectionView.frame.width - paddingWidth
-        let itemWidth: CGFloat = avilableWidth / numberOfItems
+        print(avilableWidth)
+        let itemWidth: Int = Int(avilableWidth / numberOfItems)
+        print(itemWidth)
         
         return CGSize(width: itemWidth, height: itemWidth)
     }
