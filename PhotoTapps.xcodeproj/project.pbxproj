@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		983A808D255FC11D000D8F7D /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 983A808C255FC11D000D8F7D /* ImageViewController.swift */; };
 		98876984255D328100E88630 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98876983255D328100E88630 /* AppDelegate.swift */; };
 		98876986255D328100E88630 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98876985255D328100E88630 /* SceneDelegate.swift */; };
 		9887698B255D328100E88630 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98876989255D328100E88630 /* Main.storyboard */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		983A808C255FC11D000D8F7D /* ImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
 		98876980255D328100E88630 /* PhotoTapps.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotoTapps.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		98876983255D328100E88630 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		98876985255D328100E88630 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -62,6 +64,7 @@
 				98876985255D328100E88630 /* SceneDelegate.swift */,
 				98876997255D516900E88630 /* PhotosCollectionViewController.swift */,
 				98876999255D708400E88630 /* PhotoCell.swift */,
+				983A808C255FC11D000D8F7D /* ImageViewController.swift */,
 				98876989255D328100E88630 /* Main.storyboard */,
 				9887698C255D328300E88630 /* Assets.xcassets */,
 				9887698E255D328300E88630 /* LaunchScreen.storyboard */,
@@ -143,6 +146,7 @@
 			files = (
 				9887699A255D708400E88630 /* PhotoCell.swift in Sources */,
 				98876984255D328100E88630 /* AppDelegate.swift in Sources */,
+				983A808D255FC11D000D8F7D /* ImageViewController.swift in Sources */,
 				98876986255D328100E88630 /* SceneDelegate.swift in Sources */,
 				98876998255D516900E88630 /* PhotosCollectionViewController.swift in Sources */,
 			);
